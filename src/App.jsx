@@ -1,6 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import './App.css';
+import UserManager from './components/UserManager';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <header className="header">
         <div className="profile">
           <h1 className="name">Waleed Daud</h1> {/* Replace with your name */}
-          <p className="profession">Web Developer</p> {/* Replace with your profession */}
+          <p className="profession">BackEnd WebDev</p> {/* Replace with your profession */}
           <img
             src={"waleed_picture.jpg"} // Replace with your image URL
             alt="Profile"
@@ -53,7 +54,7 @@ function App() {
         </section>
 
       </main>
-
+      <UserManager />
       <footer className="footer">
         <p>&copy; 2025 Your Name. All Rights Reserved.</p>
       </footer>
