@@ -18,7 +18,8 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const response = await fetch(import.meta.env.VITE_FORMSPREE_URL, {
+    console.log("url" , formspreeUrl)
+    const response = await fetch(formspreeUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -33,7 +34,6 @@ export default function Contact() {
       alert('Failed to send message.');
     }
   };
-  console.log("url" , formspreeUrl)
   return (
     <section id="contact" className="py-16 px-6">
       <div className="container mx-auto">
