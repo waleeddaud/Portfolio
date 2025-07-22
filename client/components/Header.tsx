@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-portfolio-dark/95 backdrop-blur-sm border-b border-portfolio-dark-secondary">
@@ -42,9 +41,12 @@ export default function Header() {
             >
               Contact
             </a>
-            <Button className="bg-portfolio-blue hover:bg-portfolio-blue-hover text-white px-6 py-2 rounded-md">
+            <a href="/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="bg-portfolio-blue hover:bg-portfolio-blue-hover text-white px-6 py-2 rounded-md">
               Resume
-            </Button>
+            </a>
           </nav>
 
           {/* Mobile menu button */}

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -29,9 +30,9 @@ export default function Hero() {
  Flask, and Express.js. Experienced in LLM integration via LangChain, Gemini, and OpenAI. Can develop basic
  ETL pipelines using Dagster. Compassion for problem solving, programming fundamentals, and DSA.
             </p>
-            <Button className="bg-portfolio-blue hover:bg-portfolio-blue-hover text-white px-8 py-4 text-lg rounded-md font-medium">
-              View Projects
-            </Button>
+              <a href="#projects"className="bg-portfolio-blue hover:bg-portfolio-blue-hover text-white px-8 py-4 text-lg rounded-md font-medium">
+                View Projects 
+              </a>
           </div>
         </div>
       </div>
