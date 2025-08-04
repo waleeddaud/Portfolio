@@ -1,24 +1,29 @@
 export default function Skills() {
   const skills = [
     {
-      icon: "💻",
-      title: "Front-end Development",
-      description: "React, JavaScript, HTML, CSS",
-    },
-    {
       icon: "⚙️",
       title: "Back-end Development",
-      description: "Node.js, Express, Python",
+      description: "FastAPI , Flask, Node.js, ExpressJs",
     },
     {
       icon: "🗄️",
       title: "Database Management",
-      description: "PostgreSQL, MongoDB",
+      description: "SQL, PostgreSQL, Supabase Integrations",
     },
     {
       icon: "🔧",
       title: "Version Control",
       description: "Git, GitHub",
+    },
+    {
+      icon: "💻",
+      title: "Data Engineering",
+      description: "ETL Pipelines using Dagster",
+    },
+    {
+      icon: "💻",
+      title: "Basic Front-end Development",
+      description: "React, JavaScript, HTML, CSS",
     },
   ];
 
