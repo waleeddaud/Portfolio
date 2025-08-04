@@ -8,31 +8,28 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex space-x-6">
             <a
-              href="#"
-              className="text-portfolio-text-muted hover:text-portfolio-blue transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a
-              href="#"
+              href="https://pk.linkedin.com/in/waleed-daud-6a377827b"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-portfolio-text-muted hover:text-portfolio-blue transition-colors"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-10 h-10" />
             </a>
             <a
-              href="#"
+              href="https://github.com/waleeddaud/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-portfolio-text-muted hover:text-portfolio-blue transition-colors"
               aria-label="GitHub"
             >
-              <Github className="w-5 h-5" />
+              <Github className="w-10 h-10" />
             </a>
           </div>
 
           {/* Copyright */}
           <p className="text-portfolio-text-muted text-sm text-center">
-            © 2024 DevPortfolio. All rights reserved.
+            © 2024  All rights reserved.
           </p>
         </div>
       </div>

@@ -7,11 +7,16 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-portfolio-blue rounded-sm flex items-center justify-center">
-              <span className="text-white font-bold text-lg">♦</span>
+            <div className="w-8 h-8 rounded-sm flex items-center justify-center bg-portfolio-blue">
+              <img
+                src="/W.jpg"
+                alt="Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
+            
             <span className="text-portfolio-text font-semibold text-lg">
-              Portfolio Website
+              Waleed Daud
             </span>
           </Link>
 
