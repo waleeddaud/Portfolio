@@ -1,28 +1,20 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Project Alpha",
+      title: "AI Chatbot",
       description:
-        "A cutting-edge web application built with React and Node.js.",
+        "A conversational AI chatbot built using LangGraph and deployed with a clean Streamlit interface. Create new chat chats with thread/session management.",
       image:
-        "https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["React", "Node.js", "MongoDB"],
+        "chatbot.png",
+      tags: ["LangGraph", "Streamlit", "Python", "Gemini"],
     },
     {
-      title: "Project Beta",
+      title: "Dagster ETL Pipeline",
       description:
-        "An e-commerce platform with a focus on user experience and performance.",
+        "This project is a simple ETL (Extract, Transform, Load) pipeline that fetches weather data from the OpenWeatherMap API, transforms it into a structured forma, and stores it into a Supabase PostgreSQL database.",
       image:
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["Next.js", "TypeScript", "Stripe"],
-    },
-    {
-      title: "Project Gamma",
-      description:
-        "A comprehensive dashboard for data visualization and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["React", "D3.js", "Python"],
+        "Dagster.png",
+      tags: ["Dagster", "Python"],
     },
   ];
 
@@ -42,7 +34,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover opacity-80"
+                  className="w-full h-full object-contain opacity-80"
                 />
               </div>
               <div className="p-6">
